@@ -1,9 +1,15 @@
+import UpperSide from './components/UpperSide'
+import Map from './components/Map';
+import Footer from './components/Footer'
+
 function App() {
   return (
     <>
-      <h1>IP Address Tracker</h1>
-      <h3>ip address</h3>
-      <h2>192.212.174.101</h2>
+      <div className="wrapper">
+        <UpperSide />
+      </div>
+      <Map />
+      <Footer />
     </>
   );
 }
