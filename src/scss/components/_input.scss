@@ -1,0 +1,19 @@
+.input {
+    position: relative;
+    &__input {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 16px 24px;
+        width: 100%;
+        line-height: 1;
+        border-radius: 12px;
+    }
+    &__button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 58px;
+        border-radius: 0 12px 12px 0;
+    }
+}

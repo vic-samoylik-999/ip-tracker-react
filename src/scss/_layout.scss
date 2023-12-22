@@ -52,3 +52,11 @@ input {
         color: $dark-gray;
     }
 }
+
+button {
+    outline: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: inherit;
+    background-color: $black;
+}
