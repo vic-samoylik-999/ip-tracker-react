@@ -46,15 +46,20 @@ input {
     font-weight: bold;
     font-family: inherit;
     color: $very-dark-gray;
-    border: 3px solid transparent;
+    border: 1px solid $dark-gray;
     transition: .4s ease;
-    &::placeholder {
+        &::placeholder {
         color: $dark-gray;
+    }
+    &:focus {
+        border-color: $very-dark-gray;
+        transition: .3s ease;
     }
 }
 
 button {
     outline: none;
+    border: none;
     font-size: 24px;
     font-weight: bold;
     font-family: inherit;
@@ -71,7 +76,6 @@ button {
 
 .upper {
     min-height: 25vh;
-    border: 1px solid red;
 }
 
 .header {
@@ -81,4 +85,13 @@ button {
     &__label {
         color: $white;
     }
+}
+
+.map {
+    min-height: 75vh;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

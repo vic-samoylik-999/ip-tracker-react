@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Info() {
-  return <div></div>;
+  return <section className="info"></section>;
 }
 
 export default Info;

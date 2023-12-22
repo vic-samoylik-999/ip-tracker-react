@@ -17,5 +17,11 @@
         height: 100%;
         width: 58px;
         border-radius: 0 12px 12px 0;
+        transition: .3s ease;
+        cursor: pointer;
+        &:hover {
+            background-color: $hover-gray;
+            transition: .3s ease;
+        }
     }
 }
