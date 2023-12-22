@@ -5,11 +5,11 @@ import Info from './Info';
 
 function UpperSide() {
   return (
-    <>
+    <div className='upper'>
       <Header />
       <Input />
       <Info />
-    </>
+    </div>
   );
 }
 

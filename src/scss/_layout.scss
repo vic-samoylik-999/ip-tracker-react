@@ -60,3 +60,25 @@ button {
     font-family: inherit;
     background-color: $black;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../assets/img/pattern-bg-desktop.png') no-repeat center;
+    background-size: cover;
+}
+
+.upper {
+    min-height: 25vh;
+    border: 1px solid red;
+}
+
+.header {
+    padding-top: 38px;
+    margin-bottom: 38px;
+    text-align: center;
+    &__label {
+        color: $white;
+    }
+}
