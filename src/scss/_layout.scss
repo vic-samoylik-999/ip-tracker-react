@@ -66,6 +66,13 @@ button {
     background-color: $black;
 }
 
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -75,7 +82,11 @@ button {
 }
 
 .upper {
-    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .header {
@@ -88,7 +99,7 @@ button {
 }
 
 .map {
-    min-height: 75vh;
+    height: 100%;
     background-color: pink;
     display: flex;
     flex-direction: column;

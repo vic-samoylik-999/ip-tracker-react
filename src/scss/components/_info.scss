@@ -1,0 +1,19 @@
+.info {
+    background-color: $white;
+    color: $black;
+    padding: 42px 32px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -68px;
+    &__row {
+        display: flex;
+        justify-content: center;
+        column-gap: 40px;
+    }
+    &__item {
+        min-width: 143px;
+        & h3 {
+            margin-bottom: 12px;
+        }
+    }
+}
