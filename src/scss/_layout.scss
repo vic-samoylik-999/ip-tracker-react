@@ -35,9 +35,7 @@ h3 {
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    // @media (max-width: 480px) {
-    //     font-size: 7px;
-    // }
+    color: $dark-gray;
 }
 
 input {
@@ -90,19 +88,11 @@ button {
 }
 
 .header {
-    padding-top: 38px;
-    margin-bottom: 38px;
+    padding-top: 18px;
+    margin-bottom: 18px;
     text-align: center;
     &__label {
         color: $white;
     }
 }
 
-.map {
-    height: 100%;
-    background-color: pink;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
